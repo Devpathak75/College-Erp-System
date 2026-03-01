@@ -56,5 +56,3 @@ This project focuses on **real-world session handling, role-based access control
 - Clean and maintainable project structure
 
 ---
-
-## 📂 Project Structure
