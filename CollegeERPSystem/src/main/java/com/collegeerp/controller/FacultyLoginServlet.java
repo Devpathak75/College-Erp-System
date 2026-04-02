@@ -36,7 +36,7 @@ public class FacultyLoginServlet extends HttpServlet {
                 && password.equals("faculty123")) {
 
             // ✅ CREATE / REUSE SESSION
-            HttpSession session = request.getSession(true);
+            HttpSession session = request.getSession(false);
 
             // ✅ LOCK ROLE IN SESSION (VERY IMPORTANT)
             session.setAttribute("role", "faculty");
